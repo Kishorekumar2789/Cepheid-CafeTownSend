@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="57109" started-at="2020-07-23T16:39:33Z" finished-at="2020-07-23T16:40:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Demo" duration-ms="57109" started-at="2020-07-23T16:39:33Z" finished-at="2020-07-23T16:40:30Z">
+      <class name="com.cafeTownSend.Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="setUpClass" is-config="true" duration-ms="158" started-at="2020-07-23T16:39:33Z" finished-at="2020-07-23T16:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="feature" duration-ms="17194" started-at="2020-07-23T16:39:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-23T16:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create User feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="feature" duration-ms="14419" started-at="2020-07-23T16:39:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-23T16:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete user feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="feature" duration-ms="10611" started-at="2020-07-23T16:40:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-23T16:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edit user feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="feature" duration-ms="14534" started-at="2020-07-23T16:40:15Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-23T16:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to CafeTown Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cafeTownSend.Runner.TestRunner@56235b8e]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2020-07-23T16:40:30Z" finished-at="2020-07-23T16:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cafeTownSend.Runner.TestRunner -->
+    </test> <!-- Demo -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>

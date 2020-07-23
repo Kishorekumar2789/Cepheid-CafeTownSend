@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="57.849" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\sesa539054\Documents\Cepheid-Maven\ChromeDriver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sesa539054\Documents\Cepheid-Maven\target\test-classes;C:\Users\sesa539054\Documents\Cepheid-Maven\target\classes;C:\Users\sesa539054\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sesa539054\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sesa539054\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\sesa539054\.m2\repository\net\masterthought\cucumber-reporting\5.0.2\cucumber-reporting-5.0.2.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\sesa539054\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\sesa539054\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\sesa539054\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sesa539054\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\sesa539054\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\sesa539054\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sesa539054\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\sesa539054\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\sesa539054\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\sesa539054\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\sesa539054\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\sesa539054\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\sesa539054\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\sesa539054\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\sesa539054\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sesa539054\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sesa539054\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sesa539054\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sesa539054\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sesa539054\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sesa539054\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sesa539054\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sesa539054\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sesa539054\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sesa539054\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sesa539054\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="user.country.format" value="SE"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sesa539054\AppData\Local\Temp\surefire2724161657658996596\surefirebooter2395724306201570589.jar C:\Users\sesa539054\AppData\Local\Temp\surefire2724161657658996596 2020-07-23T19-38-16_580-jvmRun1 surefire7246203148642326233tmp surefire_08369768410039619198tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\sesa539054\Documents\Cepheid-Maven\target\test-classes;C:\Users\sesa539054\Documents\Cepheid-Maven\target\classes;C:\Users\sesa539054\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sesa539054\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sesa539054\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\sesa539054\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\sesa539054\.m2\repository\net\masterthought\cucumber-reporting\5.0.2\cucumber-reporting-5.0.2.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\sesa539054\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\sesa539054\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\sesa539054\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\sesa539054\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sesa539054\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\sesa539054\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\sesa539054\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sesa539054\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\sesa539054\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\sesa539054\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\sesa539054\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\sesa539054\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\sesa539054\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\sesa539054\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\sesa539054\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\sesa539054\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sesa539054\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sesa539054\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sesa539054\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sesa539054\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sesa539054\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sesa539054\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sesa539054\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sesa539054\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sesa539054\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sesa539054\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sesa539054\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sesa539054\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sesa539054"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\sesa539054\Documents\Cepheid-Maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sesa539054\AppData\Local\Temp\surefire2724161657658996596\surefirebooter2395724306201570589.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="SESA539054"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sesa539054\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SESA53~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\sesa539054\Documents\Cepheid-Maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sv"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Imaging\;C:\Program Files\dotnet\;%JAVA_HOME%\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\1E\Client\Extensibility\NomadBranch;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\sesa539054\AppData\Local\Android\Sdk\tools;C:\Users\sesa539054\AppData\Local\Android\Sdk\platform-tools;C:\Users\sesa539054\AppData\Local\Android\Sdk\tools\bin;C:\Users\sesa539054\Documents\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\sesa539054\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\sesa539054\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\Java\jre1.8.0_241\bin;C:\Users\sesa539054\AppData\Local\Android\Sdk\tools\bin;C:\Users\sesa539054\AppData\Local\Android\Sdk\tools;C:\Users\sesa539054\AppData\Local\Android\Sdk\platform-tools;C:\Users\sesa539054\.windows-build-tools\python27\;C:\Users\sesa539054\AppData\Local\Microsoft\WindowsApps;;C:\Users\sesa539054\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sesa539054\AppData\Local\Yarn\bin;C:\Users\sesa539054\AppData\Roaming\npm;C:\Users\sesa539054\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature[Create User feature](1)" classname="com.cafeTownSend.Runner.TestRunner" time="17.549">
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+Feature: Create User feature
+
+  Scenario Outline: Create user Scenario                                           # CreateUser.feature:3
+    Given user opens chrome browser
+    And successful login into the application
+    And user clicks on createUser button
+    Then enter the user detials "<FirstName>" "<LastName>" "<StartDate>" "<Email>"
+    Then click Add button
+    Then logout from application
+
+    Examples: 
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:368 INFO  LoggerHelper:30 -  ** Executing Create User Tests ** 
+browserName: chrome
+2020-07-23 19:07:224 INFO  LoggerHelper:32 -  ** Browser is launched **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:523 INFO  LoggerHelper:47 - ** User login is success **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:971 INFO  LoggerHelper:61 - ** Create button is clicked **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:512 INFO  LoggerHelper:75 - ** User info is entered successfully **
+2020-07-23 19:07:528 INFO  LoggerHelper:87 - ** New User s created successfully **
+2020-07-23 19:07:626 INFO  LoggerHelper:98 - ** Logout successfully **
+
+  Scenario Outline: Create user Scenario                                     # CreateUser.feature:14
+    Given user opens chrome browser                                          # CreateUserSteps.user_opens_chrome_browser()
+    And successful login into the application                                # CreateUserSteps.successful_login_into_the_application()
+    And user clicks on createUser button                                     # CreateUserSteps.user_clicks_on_createUser_button()
+    Then enter the user detials "Peter" "Von" "2020-03-10" "peter@gmail.com" # CreateUserSteps.enter_the_user_detials(String,String,String,String)
+    Then click Add button                                                    # CreateUserSteps.click_Add_button()
+    Then logout from application                                             # CreateUserSteps.logout_from_application()
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:277 INFO  LoggerHelper:30 -  ** Executing Create User Tests ** 
+browserName: chrome
+2020-07-23 19:07:356 INFO  LoggerHelper:32 -  ** Browser is launched **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:685 INFO  LoggerHelper:47 - ** User login is success **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:154 INFO  LoggerHelper:61 - ** Create button is clicked **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:858 INFO  LoggerHelper:75 - ** User info is entered successfully **
+2020-07-23 19:07:872 INFO  LoggerHelper:87 - ** New User s created successfully **
+2020-07-23 19:07:973 INFO  LoggerHelper:98 - ** Logout successfully **
+
+  Scenario Outline: Create user Scenario                                           # CreateUser.feature:15
+    Given user opens chrome browser                                                # CreateUserSteps.user_opens_chrome_browser()
+    And successful login into the application                                      # CreateUserSteps.successful_login_into_the_application()
+    And user clicks on createUser button                                           # CreateUserSteps.user_clicks_on_createUser_button()
+    Then enter the user detials "Ajay" "kumar" "2020-07-23" "ajay.kumar@gmail.com" # CreateUserSteps.enter_the_user_detials(String,String,String,String)
+    Then click Add button                                                          # CreateUserSteps.click_Add_button()
+    Then logout from application                                                   # CreateUserSteps.logout_from_application()
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.file
+log4j:ERROR Could not instantiate appender named "file".
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 40839
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 23, 2020 7:38:22 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 23338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 23, 2020 7:38:30 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Delete user feature](2)" classname="com.cafeTownSend.Runner.TestRunner" time="14.587">
+    <system-out><![CDATA[Feature: Delete user feature
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:651 INFO  LoggerHelper:34 - ** Executing DeleteUser Tests **
+browserName: chrome
+2020-07-23 19:07:117 INFO  LoggerHelper:36 - ** Browser is launched **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:416 INFO  LoggerHelper:50 - ** User Login is success **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:430 INFO  LoggerHelper:63 - ** User is clicked from Userlist **
+2020-07-23 19:07:513 INFO  LoggerHelper:74 - ** Delete button is clicked **
+2020-07-23 19:07:522 INFO  LoggerHelper:87 - ** Delete pop is displayed and user is deleted successfully**
+2020-07-23 19:07:510 INFO  LoggerHelper:101 - ** Deleted user is not availabe in User List**
+2020-07-23 19:07:679 INFO  LoggerHelper:114 - ** Logout successfully **
+
+  Scenario: Delete user Scenario                   # Delete.feature:3
+    Given user open the chrome browser             # DeleteUserSteps.user_open_the_chrome_browser()
+    And successful login into application          # DeleteUserSteps.successful_login_into_application()
+    Then select any user from the Userlist         # DeleteUserSteps.select_any_user_from_the_Userlist()
+    And click on delete button                     # DeleteUserSteps.click_on_delete_button()
+    Then click  Ok button in window pop up         # DeleteUserSteps.click_Ok_button_in_window_pop_up()
+    Then user should be deleted from the user list # DeleteUserSteps.user_should_be_deleted_from_the_user_list()
+    Then click logout option and close the Browser # DeleteUserSteps.click_logout_option_and_close_the_Browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 48979
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 23, 2020 7:38:38 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Edit user feature](3)" classname="com.cafeTownSend.Runner.TestRunner" time="10.361">
+    <system-out><![CDATA[Feature: Edit user feature
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:324 INFO  LoggerHelper:37 -  ** Executing Edit User Tests **
+browserName: chrome
+2020-07-23 19:07:344 INFO  LoggerHelper:40 -  ** Browser is launched **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:641 INFO  LoggerHelper:53 -  ** User Login is suceess **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:680 INFO  LoggerHelper:65 -  ** clicked user from Userlist **
+2020-07-23 19:07:779 INFO  LoggerHelper:76 -  ** clicked edit button **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2019-06-25
+2020-07-23 19:07:448 INFO  LoggerHelper:91 -  ** successfully edited the user info **
+2020-07-23 19:07:509 INFO  LoggerHelper:103 -  ** User Edit operation is succcess **
+after confirmation: ttitioan surrusss
+2020-07-23 19:07:908 INFO  LoggerHelper:114 -  ** verified edited user displayed in user list **
+2020-07-23 19:07:28 INFO  LoggerHelper:127 - ** Logout successfully **
+
+  Scenario: Edit user Scenario                       # EditUser.feature:3
+    Given user opens the browser                     # EditUserSteps.user_opens_the_browser()
+    And successfull login into the application       # EditUserSteps.successfull_login_into_the_application()
+    And click on user from userlist                  # EditUserSteps.click_on_user_from_userlist()
+    Then click on edit button                        # EditUserSteps.click_on_edit_button()
+    And edit the user info                           # EditUserSteps.edit_the_user_info()
+    Then click on update button                      # EditUserSteps.click_on_update_button()
+    Then verify the updated username in the userlist # EditUserSteps.verify_the_updated_username_in_the_userlist()
+    Then click logout button                         # EditUserSteps.click_logout_button()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 16834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 23, 2020 7:38:53 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature[User Login](4)" classname="com.cafeTownSend.Runner.TestRunner" time="14.614">
+    <system-out><![CDATA[Feature: User Login
+
+  Scenario Outline: Validate Login flow of CafeTown Application # Login.feature:3
+    Given user launch the chrome browser
+    Then user is on login page
+    And enter "<username>" and "<password>"
+    Then verify "<valid or invalid>" credentials
+    Then close the browser
+
+    Examples: 
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:682 INFO  LoggerHelper:32 - ** Launching chrome browser **
+browserName: chrome
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:692 INFO  LoggerHelper:44 -  ** Page Title assertion success **
+2020-07-23 19:07:21 INFO  LoggerHelper:60 -  ** login is success **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:24 INFO  LoggerHelper:77 -  ** Page Title assertion is success **
+2020-07-23 19:07:66 INFO  LoggerHelper:79 -  ** Logged In username assertion is success **
+2020-07-23 19:07:67 INFO  LoggerHelper:97 - Closing the browser
+2020-07-23 19:07:67 INFO  LoggerHelper:98 - ** Logout successfully **
+
+  Scenario Outline: Validate Login flow of CafeTown Application # Login.feature:13
+    Given user launch the chrome browser                        # LoginPageSteps.user_launch_the_chrome_browser()
+    Then user is on login page                                  # LoginPageSteps.user_is_on_login_page()
+    And enter "Luke" and "Skywalker"                            # LoginPageSteps.enter_and(String,String)
+    Then verify "valid" credentials                             # LoginPageSteps.verify_credentials(String)
+    Then close the browser                                      # LoginPageSteps.close_the_browser()
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:679 INFO  LoggerHelper:32 - ** Launching chrome browser **
+browserName: chrome
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:720 INFO  LoggerHelper:44 -  ** Page Title assertion success **
+2020-07-23 19:07:32 INFO  LoggerHelper:60 -  ** login is success **
+C:\Users\sesa539054\Documents\Cepheid-Maven
+2020-07-23 19:07:597 INFO  LoggerHelper:83 -  ** verification of login Error message is success! **
+2020-07-23 19:07:597 INFO  LoggerHelper:97 - Closing the browser
+2020-07-23 19:07:598 INFO  LoggerHelper:98 - ** Logout successfully **
+
+  Scenario Outline: Validate Login flow of CafeTown Application # Login.feature:14
+    Given user launch the chrome browser                        # LoginPageSteps.user_launch_the_chrome_browser()
+    Then user is on login page                                  # LoginPageSteps.user_is_on_login_page()
+    And enter "Test" and "Test123"                              # LoginPageSteps.enter_and(String,String)
+    Then verify "invalid" credentials                           # LoginPageSteps.verify_credentials(String)
+    Then close the browser                                      # LoginPageSteps.close_the_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9022
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 23, 2020 7:39:03 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 3026
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 23, 2020 7:39:10 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

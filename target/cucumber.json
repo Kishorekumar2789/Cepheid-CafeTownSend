@@ -1,0 +1,640 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Create user Scenario",
+        "description": "",
+        "id": "create-user-feature;create-user-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6950877100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens chrome browser",
+            "match": {
+              "location": "CreateUserSteps.user_opens_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 296949600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "successful login into the application",
+            "match": {
+              "location": "CreateUserSteps.successful_login_into_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448717200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on createUser button",
+            "match": {
+              "location": "CreateUserSteps.user_clicks_on_createUser_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539674300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the user detials \"Peter\" \"Von\" \"2020-03-10\" \"peter@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 24
+                },
+                {
+                  "val": "Von",
+                  "offset": 32
+                },
+                {
+                  "val": "2020-03-10",
+                  "offset": 38
+                },
+                {
+                  "val": "peter@gmail.com",
+                  "offset": 51
+                }
+              ],
+              "location": "CreateUserSteps.enter_the_user_detials(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15269400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click Add button",
+            "match": {
+              "location": "CreateUserSteps.click_Add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 745093100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "logout from application",
+            "match": {
+              "location": "CreateUserSteps.logout_from_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create user Scenario",
+        "description": "",
+        "id": "create-user-feature;create-user-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6079817100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens chrome browser",
+            "match": {
+              "location": "CreateUserSteps.user_opens_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 327988600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "successful login into the application",
+            "match": {
+              "location": "CreateUserSteps.successful_login_into_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468832900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on createUser button",
+            "match": {
+              "location": "CreateUserSteps.user_clicks_on_createUser_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702394000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the user detials \"Ajay\" \"kumar\" \"2020-07-23\" \"ajay.kumar@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajay",
+                  "offset": 24
+                },
+                {
+                  "val": "kumar",
+                  "offset": 31
+                },
+                {
+                  "val": "2020-07-23",
+                  "offset": 39
+                },
+                {
+                  "val": "ajay.kumar@gmail.com",
+                  "offset": 52
+                }
+              ],
+              "location": "CreateUserSteps.enter_the_user_detials(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13681500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click Add button",
+            "match": {
+              "location": "CreateUserSteps.click_Add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 774666100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "logout from application",
+            "match": {
+              "location": "CreateUserSteps.logout_from_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create User feature",
+    "description": "",
+    "id": "create-user-feature",
+    "keyword": "Feature",
+    "uri": "CreateUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Delete user Scenario",
+        "description": "",
+        "id": "delete-user-feature;delete-user-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6466838700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the chrome browser",
+            "match": {
+              "location": "DeleteUserSteps.user_open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298346800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "successful login into application",
+            "match": {
+              "location": "DeleteUserSteps.successful_login_into_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014026400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select any user from the Userlist",
+            "match": {
+              "location": "DeleteUserSteps.select_any_user_from_the_Userlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81731700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on delete button",
+            "match": {
+              "location": "DeleteUserSteps.click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8704100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click  Ok button in window pop up",
+            "match": {
+              "location": "DeleteUserSteps.click_Ok_button_in_window_pop_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5987761900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be deleted from the user list",
+            "match": {
+              "location": "DeleteUserSteps.user_should_be_deleted_from_the_user_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 810186400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click logout option and close the Browser",
+            "match": {
+              "location": "DeleteUserSteps.click_logout_option_and_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete user feature",
+    "description": "",
+    "id": "delete-user-feature",
+    "keyword": "Feature",
+    "uri": "Delete.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Edit user Scenario",
+        "description": "",
+        "id": "edit-user-feature;edit-user-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6020446400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens the browser",
+            "match": {
+              "location": "EditUserSteps.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 296753900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "successfull login into the application",
+            "match": {
+              "location": "EditUserSteps.successfull_login_into_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1039179200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on user from userlist",
+            "match": {
+              "location": "EditUserSteps.click_on_user_from_userlist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98872300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on edit button",
+            "match": {
+              "location": "EditUserSteps.click_on_edit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 667549800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "edit the user info",
+            "match": {
+              "location": "EditUserSteps.edit_the_user_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61024900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on update button",
+            "match": {
+              "location": "EditUserSteps.click_on_update_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1397999900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the updated username in the userlist",
+            "match": {
+              "location": "EditUserSteps.verify_the_updated_username_in_the_userlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 769671900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click logout button",
+            "match": {
+              "location": "EditUserSteps.click_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit user feature",
+    "description": "",
+    "id": "edit-user-feature",
+    "keyword": "Feature",
+    "uri": "EditUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Validate Login flow of CafeTown Application",
+        "description": "",
+        "id": "user-login;validate-login-flow-of-cafetown-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6006376200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the chrome browser",
+            "match": {
+              "location": "LoginPageSteps.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4121000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 327974400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter \"Luke\" and \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 7
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44914900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify \"valid\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginPageSteps.verify_credentials(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 610527600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Validate Login flow of CafeTown Application",
+        "description": "",
+        "id": "user-login;validate-login-flow-of-cafetown-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6034883100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the chrome browser",
+            "match": {
+              "location": "LoginPageSteps.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5698900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 312247300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter \"Test\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 7
+                },
+                {
+                  "val": "Test123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563974700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify \"invalid\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginPageSteps.verify_credentials(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 638590500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

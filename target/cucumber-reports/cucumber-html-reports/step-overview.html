@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>cepheidBDDFramework</td>
+                          <td>1</td>
+                        <td>23 jul 2020, 19:39</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">CreateUserSteps.click_Add_button()</td>
+                <td>2</td>
+                <td class="duration" data-value="28950900">028ms</td>
+                <td class="duration" data-value="14475450">014ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CreateUserSteps.enter_the_user_detials(String,String,String,String)</td>
+                <td>2</td>
+                <td class="duration" data-value="1242068300">1s 242ms</td>
+                <td class="duration" data-value="621034150">621ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CreateUserSteps.logout_from_application()</td>
+                <td>2</td>
+                <td class="duration" data-value="1519759200">1s 519ms</td>
+                <td class="duration" data-value="759879600">759ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CreateUserSteps.successful_login_into_the_application()</td>
+                <td>2</td>
+                <td class="duration" data-value="624938200">624ms</td>
+                <td class="duration" data-value="312469100">312ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CreateUserSteps.user_clicks_on_createUser_button()</td>
+                <td>2</td>
+                <td class="duration" data-value="917550100">917ms</td>
+                <td class="duration" data-value="458775050">458ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CreateUserSteps.user_opens_chrome_browser()</td>
+                <td>2</td>
+                <td class="duration" data-value="13030694200">13s 030ms</td>
+                <td class="duration" data-value="6515347100">6s 515ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.click_Ok_button_in_window_pop_up()</td>
+                <td>1</td>
+                <td class="duration" data-value="8704100">008ms</td>
+                <td class="duration" data-value="8704100">008ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.click_logout_option_and_close_the_Browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="810186400">810ms</td>
+                <td class="duration" data-value="810186400">810ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.click_on_delete_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="81731700">081ms</td>
+                <td class="duration" data-value="81731700">081ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.select_any_user_from_the_Userlist()</td>
+                <td>1</td>
+                <td class="duration" data-value="1014026400">1s 014ms</td>
+                <td class="duration" data-value="1014026400">1s 014ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.successful_login_into_application()</td>
+                <td>1</td>
+                <td class="duration" data-value="298346800">298ms</td>
+                <td class="duration" data-value="298346800">298ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.user_open_the_chrome_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="6466838700">6s 466ms</td>
+                <td class="duration" data-value="6466838700">6s 466ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DeleteUserSteps.user_should_be_deleted_from_the_user_list()</td>
+                <td>1</td>
+                <td class="duration" data-value="5987761900">5s 987ms</td>
+                <td class="duration" data-value="5987761900">5s 987ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.click_logout_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="769671900">769ms</td>
+                <td class="duration" data-value="769671900">769ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.click_on_edit_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="98872300">098ms</td>
+                <td class="duration" data-value="98872300">098ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.click_on_update_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="61024900">061ms</td>
+                <td class="duration" data-value="61024900">061ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.click_on_user_from_userlist()</td>
+                <td>1</td>
+                <td class="duration" data-value="1039179200">1s 039ms</td>
+                <td class="duration" data-value="1039179200">1s 039ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.edit_the_user_info()</td>
+                <td>1</td>
+                <td class="duration" data-value="667549800">667ms</td>
+                <td class="duration" data-value="667549800">667ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.successfull_login_into_the_application()</td>
+                <td>1</td>
+                <td class="duration" data-value="296753900">296ms</td>
+                <td class="duration" data-value="296753900">296ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.user_opens_the_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="6020446400">6s 020ms</td>
+                <td class="duration" data-value="6020446400">6s 020ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">EditUserSteps.verify_the_updated_username_in_the_userlist()</td>
+                <td>1</td>
+                <td class="duration" data-value="1397999900">1s 397ms</td>
+                <td class="duration" data-value="1397999900">1s 397ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginPageSteps.close_the_browser()</td>
+                <td>2</td>
+                <td class="duration" data-value="1249118100">1s 249ms</td>
+                <td class="duration" data-value="624559050">624ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginPageSteps.enter_and(String,String)</td>
+                <td>2</td>
+                <td class="duration" data-value="640221700">640ms</td>
+                <td class="duration" data-value="320110850">320ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginPageSteps.user_is_on_login_page()</td>
+                <td>2</td>
+                <td class="duration" data-value="9819900">009ms</td>
+                <td class="duration" data-value="4909950">004ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginPageSteps.user_launch_the_chrome_browser()</td>
+                <td>2</td>
+                <td class="duration" data-value="12041259300">12s 041ms</td>
+                <td class="duration" data-value="6020629650">6s 020ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginPageSteps.verify_credentials(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="608889600">608ms</td>
+                <td class="duration" data-value="304444800">304ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>26</td>
+              <td>37</td>
+              <td class="duration">56s 932ms</td>
+              <td class="duration">1s 538ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

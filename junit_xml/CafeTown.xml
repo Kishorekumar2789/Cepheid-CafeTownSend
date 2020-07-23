@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.632016">
+<testcase classname="Delete user feature" name="Delete user Scenario" time="15.933185">
+<system-out><![CDATA[Given user open the chrome browser..........................................passed
+And successful login into application.......................................passed
+Then select any user from the list..........................................passed
+And click on delete button..................................................passed
+Then click  ok button to delete the user from user list.....................passed
+Then user should be deleted from the user list..............................passed
+Then click logout option and close the Browser..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="CafeTown application test" name="Validate Login flow of CafeTown Application" time="7.698831">
+<failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;main-button&quot; ng-click=&quot;logout()&quot;&gt;...&lt;/p&gt; is not clickable at point (930, 245). Other element would receive the click: &lt;div class=&quot;main-view-wrapper main-view-wrapper-employees&quot; ng-class=&quot;{login:'main-view-wrapper-loggedIn',&#10;      employees:'main-view-wrapper-employees',&#10;      edit:'main-view-wrapper-edit',&#10;      create:'main-view-wrapper-create'}[viewState.current]&quot; style=&quot;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=83.0.4103.116)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'WTSELVSE112038L', ip: '192.168.10.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SESA53~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 45d90c32014e9fc537e18769f6055c8c&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)&#13;&#10;&#9;at com.sun.proxy.$Proxy18.click(Unknown Source)&#13;&#10;&#9;at com.cafeTownSend.pages.HomePage.clickLogout(HomePage.java:80)&#13;&#10;&#9;at com.cafeTownSend.StepDefinitions.HomePageSteps.click_logout_button_and_close_the_Browser(HomePageSteps.java:64)&#13;&#10;&#9;at ✽.Then click logout button and close the Browser(Login.feature:10)&#13;&#10;"><![CDATA[Given user open the browser.................................................passed
+Then user is on login page..................................................passed
+And user logs into application..............................................passed
+Then user land on homepage..................................................passed
+And validate logged in username.............................................passed
+Then click logout button and close the Browser..............................failed
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-employees" ng-class="{login:'main-view-wrapper-loggedIn',
+      employees:'main-view-wrapper-employees',
+      edit:'main-view-wrapper-edit',
+      create:'main-view-wrapper-create'}[viewState.current]" style="">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WTSELVSE112038L', ip: '192.168.10.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SESA53~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 45d90c32014e9fc537e18769f6055c8c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at com.cafeTownSend.pages.HomePage.clickLogout(HomePage.java:80)
+	at com.cafeTownSend.StepDefinitions.HomePageSteps.click_logout_button_and_close_the_Browser(HomePageSteps.java:64)
+	at ✽.Then click logout button and close the Browser(Login.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite  name="Smoke Suite" verbose="10" configfailurepolicy="skip"  parallel="false"  thread-count="2">   
+  <test name="CafeTownSend">
+   <classes>
+	   <class name="com.cafeTownSend.Runner.TestRunner"/>  
+	 </classes>
+   </test>
+
+</suite>
