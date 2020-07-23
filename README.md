@@ -1,12 +1,14 @@
-Behavior Driven Development Test Automation Framework using Selenium with Java, JUnit, TestNG and Maven
+
+## Overview:
+This is Behavior Driven Development Test Automation Framework using Selenium with Java, JUnit, TestNG and Maven
 This Behavior Driven framework integration with TestNg which gives more flexibility build pipeline
 
-Prerequisite:
+### Prerequisite:
 Install below softwares:
 1. Java- 8
 2. Eclipse IDE - Oxygen
 
-Install below dependencies:
+## Install below dependencies:
 1. cucumber-java
 2. cucumber-junit
 3. cucumber-jvm-deps
@@ -17,14 +19,14 @@ Install below dependencies:
 8. selenium-java
 9. log4j
 	
-Install below Plugins:
+## Install below Plugins:
 1. maven-compiler-plugin
 2. maven-surefire-plugin
 3. maven-source-plugin
 4. maven-cucumber-reporting
 
 
-Highlights:
+## Highlights:
 1. In this framework I fouced on Happy path testing
 2. Tests are independent to each other.
 3. No duplicate creation of class Objects
@@ -32,15 +34,15 @@ Highlights:
 5. Prarllel execution can be configured if needed
 
 
-Install Maven:
+## Install Maven:
    1. Follow this link to install maven - https://mkyong.com/maven/how-to-install-maven-in-windows/
    2. Once installation is over, execute this command in command prompt mvn --version 
-      Maven home: C:\Users\xxxxxxx\Documents\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..
-	  Java version: 1.8.0_241, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_241\jre
+      Maven home: **MAVEN_HOME Path
+	  Java version: 1.8.0_241, vendor: Oracle Corporation, runtime: **JDK PATH
 	  Default locale: en_US, platform encoding: Cp1252
 	  OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
-Framework SetUp:
+## Framework SetUp:
 1. Download this project from git and unzip the project
 2. Open the ecllipse
 3. choose file -> imports-> expand maven -> choose Existing Maven project
@@ -49,8 +51,8 @@ Framework SetUp:
 6. There are chances of error occurance due to incorrect path. for ex: chrome path.
 
 
-How to Execute Tests:
 
+## How to Execute Tests:
 Designed this framework to execute tests in two different mode:
 1. Execute tests from TestNG.xml - 
     Configred Test Runner class in TestNG.xmlRight and execute as TestNG suite.
@@ -64,14 +66,14 @@ Designed this framework to execute tests in two different mode:
 4. Navigate to this location to view the report- **\target\cucumber-reports
 5. Sample Pre-Execution reports are available in this folder: PreExecutionCucumber_Reports
 	
-Framework Highlights:
+## Framework Highlights:
 1. In this framework I fouced on Happy path testing
 2. Tests are independent to each other.
 3. No duplicate creation of class Objects
 4. Followed OOPS methodology on accessing the classs and methods
 5. Prarllel execution can be configured if needed
 
-Framework Maintanence and Reusablity:
+## Framework Maintanence and Reusablity:
 1. Designed Page Object model. if there is any change in UI easy to update the code
 2. Handled webelements with proper explicit waits.
 3. With this design pattern parallel execution and remote execution of automation scripts is very handy.
@@ -83,8 +85,6 @@ Framework Maintanence and Reusablity:
 9. Automation Tests can be executed from command line - ease of exection from Devops environment
 10. Cucumber report will show the execution status of all the tests.
 
-
-Sample
 
 
 
