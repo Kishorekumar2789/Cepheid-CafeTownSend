@@ -1,7 +1,7 @@
 
 ## Overview:
-This is Behavior Driven Development Test Automation Framework using Selenium with Java, JUnit, TestNG and Maven
-This Behavior Driven framework integration with TestNg which gives more flexibility build pipeline
+This is Behavior Driven Development Test Automation Framework using Selenium with Java, JUnit, TestNG and Maven.
+This Behavior Driven framework is integrated with TestNg which gives more flexibility in CI/CD build pipeline
 
 ### Prerequisite:
 Install below softwares:
@@ -29,9 +29,9 @@ Install below softwares:
 ## Highlights:
 1. In this framework I fouced on Happy path testing
 2. Tests are independent to each other.
-3. No duplicate creation of class Objects
-4. Followed OOPS methodology on accessing the classs and methods
-5. Prarllel execution can be configured if needed
+3. No duplicate creation of class Objects.
+4. Followed OOPS methodology on accessing the classes and methods.
+5. Parallel execution can be configured if needed.
 
 
 ## Install Maven:
@@ -43,11 +43,11 @@ Install below softwares:
 	  OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 ## Framework SetUp:
-1. Download this project from git and unzip the project
-2. Open the ecllipse
-3. choose file -> imports-> expand maven -> choose Existing Maven project
-4. Select project root from local and click finish
-5. All dependencies should be installed
+1. Download this project from git and unzip the project.
+2. Open Ecllipse IDE.
+3. choose file -> imports-> expand maven -> choose Existing Maven project.
+4. Select project root from local and click finish.
+5. All dependencies should be installed.
 6. There are chances of error occurance due to incorrect path. for ex: chrome path.
 
 
