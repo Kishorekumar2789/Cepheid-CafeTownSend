@@ -55,7 +55,7 @@ Install below softwares:
 ## How to Execute Tests:
 Designed this framework to execute tests in two different mode:
 1. Execute tests from TestNG.xml - 
-    Configred Test Runner class in TestNG.xmlRight and execute as TestNG suite.
+    Configred Test Runner class in TestNG.xml and execute as TestNG suite.
 2. Execute tests from command line using Maven commands:
    In commandline - navigate to the Maven project folder
    Execute the below commands:
